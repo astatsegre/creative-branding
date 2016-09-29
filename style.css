@@ -63,6 +63,7 @@ header span {
     display: inline-block;
     vertical-align: middle;
     line-height: 45px;
+    transition: color 150ms linear, border 150ms linear, background 150ms linear;
 }
 
 .read-more-btn:hover {
@@ -147,6 +148,7 @@ header span {
     text-decoration: none;
     color: #3c3c3c;
     font-weight: 400S;
+    transition: color 200ms linear;
 }
 
 .main-nav li a:hover {
@@ -194,8 +196,13 @@ p {
     height: 92px;
     margin: 0 auto 0 auto;
     border-radius: 50%;
-    border: 2px solid #f0f0f0;
     margin-bottom: 50px;
+    border: 2px solid #f0f0f0;
+    transition: border 500ms linear;
+}
+
+.feature-logo:hover {
+    border: 2px solid #000;
 }
 
 .feature-logo-responsive {
